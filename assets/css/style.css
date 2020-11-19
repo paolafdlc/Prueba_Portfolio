@@ -24,7 +24,7 @@ a.icon.navbar.ml-3:hover {
 }
 
 .ux-title {
-    color: #ffffff;  
+    color: #ffffff;
     font-size: 2.5rem;
 }
 
@@ -32,7 +32,7 @@ a.icon.navbar.ml-3:hover {
     min-height: 90vh;
 }
 
-.min108vh{
+.min108vh {
     min-height: 108vh;
 }
 
@@ -46,18 +46,18 @@ a.icon.navbar.ml-3:hover {
     background-color: blueviolet !important;
 }
 
-.container-description{
+.container-description {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.custom-padding{
+.custom-padding {
     padding-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
 }
 
-.custom-padding-description{
+.custom-padding-description {
     padding-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
@@ -74,12 +74,12 @@ hr.solidWhite {
     width: 25%;
 }
 
-p.custom-description{
+p.custom-description {
     font-weight: 400;
     font-size: 25px;
 }
 
-p.custom-paragraph{
+p.custom-paragraph {
     text-align: left;
 }
 
@@ -100,7 +100,7 @@ section#experiencia {
     padding-bottom: 10%;
 }
 
-section#trabajos{
+section#trabajos {
     background-color: blueviolet;
     padding-bottom: 10% !important;
 }
@@ -110,7 +110,7 @@ section#trabajos{
     font-weight: bold;
 }
 
-.custom-padding-trabajos{
+.custom-padding-trabajos {
     padding-top: 10%;
     padding-right: 10%;
     padding-left: 10%;
@@ -147,7 +147,7 @@ button#buttonEspacioV {
     border-color: white;
 }
 
-#titleContacto{
+#titleContacto {
     color: #000000;
 }
 
@@ -158,7 +158,7 @@ button#buttonEspacioV {
     padding-bottom: 5%;
 }
 
-#typeform-bottom{
+#typeform-bottom {
     display: none;
 }
 
@@ -197,7 +197,6 @@ a#icon-facebook {
 
 body * {
     font-family: 'Cabin', sans-serif;
-    /*color: #373A3C;*/
 }
 
 nav {
@@ -265,16 +264,13 @@ span {
     font-family: 'Lobster', cursive;
 }
 
-
 @media screen and (max-width:576px) {
-
     .home-image {
         background-image: url(../img/bannermovil.png);
         background-repeat: no-repeat;
         background-size: 412px 300px;
         background-position: top;
     }
-
     h1 {
         font-size: 36px;
         text-align: center;
@@ -283,29 +279,23 @@ span {
         text-align: center;
         font-size: 16px;
     }
-
     p {
         font-size: 20px;
     }
-
     .buttons {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
     }
-
     .card-title {
         font-size: 25px;
     }
-
     section#experiencia {
         position: relative;
         top: -160px;
     }
-
     div#footer-logo {
         text-align: center;
     }
-    
 }
