@@ -2,6 +2,11 @@ a.nav-link:hover {
     color: pink;
 }
 
+div#footer-rrss {
+    position: relative;
+    top: 40px;
+}
+
 button.btn.btn-primary.btn-lg.btn-block {
     background-color: pink;
     border-color: white;
@@ -43,7 +48,7 @@ a.icon.navbar.ml-3:hover {
 }
 
 .col.align-self-center.bg-info.text-white.rounded {
-    background-color: pink !important;
+    background-color: #CA00F6 !important;
 }
 
 .container-description{
@@ -198,7 +203,7 @@ nav {
 
 .navbar,
 footer {
-    background-color: #373A3C;
+    background-color: #333333;
     color: #ffffff;
     font-family: 'Lobster', cursive;
     text-decoration: none!important;
@@ -294,6 +299,15 @@ span {
     section#experiencia {
         position: relative;
         top: -160px;
+    }
+
+    div#footer-rrss {
+        position: relative;
+        top: 15px;
+    }
+
+    div#footer-logo {
+        text-align: center;
     }
     
 }
