@@ -1,0 +1,299 @@
+a.nav-link:hover {
+    color: pink;
+}
+
+button.btn.btn-primary.btn-lg.btn-block {
+    background-color: pink;
+    border-color: white;
+}
+
+a.icon.navbar.ml-3:hover {
+    color: pink;
+}
+
+.home-image {
+    background-image: url('../img/hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-hero {
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.ux-title {
+    color: #ffffff;  
+    font-size: 2.5rem;
+}
+
+.min90vh {
+    min-height: 90vh;
+}
+
+.min108vh{
+    min-height: 108vh;
+}
+
+.underline {
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 1.8;
+}
+
+.col.align-self-center.bg-info.text-white.rounded {
+    background-color: pink !important;
+}
+
+.container-description{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.custom-padding{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.custom-padding-description{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%
+}
+
+hr.solidBlack {
+    border-top: 3px solid #000000;
+    width: 25%;
+}
+
+hr.solidWhite {
+    border-top: 3px solid #ffffff;
+    width: 25%;
+}
+
+p.custom-description{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p.custom-paragraph{
+    text-align: left;
+}
+
+.min50vh {
+    min-height: 50vh;
+}
+
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
+h1#titleExperiencia {
+    font-weight: bold;
+}
+
+section#experiencia {
+    padding-bottom: 10%;
+}
+
+section#trabajos{
+    background-color: blueviolet;
+    padding-bottom: 10% !important;
+}
+
+#titleUltimosTrabajos {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.custom-padding-trabajos{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+button#buttonMeetandCoffee {
+    background-color: pink;
+    border-color: white;
+}
+
+button#buttonIguana {
+    background-color: pink;
+    border-color: white;
+}
+
+button#buttonSuricata {
+    background-color: pink;
+    border-color: white;
+}
+
+button#buttonCuppon {
+    background-color: pink;
+    border-color: white;
+}
+
+button#buttonRicomida {
+    background-color: pink;
+    border-color: white;
+}
+
+button#buttonEspacioV {
+    background-color: pink;
+    border-color: white;
+}
+
+#titleContacto{
+    color: #000000;
+}
+
+.custom-padding-contact {
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+#typeform-bottom{
+    display: none;
+}
+
+h1#titleContacto {
+    font-weight: bold;
+}
+
+h3.icon.text-center {
+    padding-right: 10%;
+    font-size: 70px;
+}
+
+a#icon-github {
+  color: pink;
+}
+
+a#icon-twitter{
+  color: pink;
+}
+
+a#icon-linkedin{
+  color: pink;
+}
+
+a#icon-facebook{
+  color: pink;
+}
+
+body * {
+    font-family: 'Cabin', sans-serif;
+    /*color: #373A3C;*/
+}
+
+nav {
+    padding: 0!important;
+}
+
+.navbar,
+footer {
+    background-color: #373A3C;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    text-decoration: none!important;
+}
+
+.nav-link {
+    font-family: 'Cabin', regular;
+    color: #ffffff;
+}
+
+footer h3 {
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+.icon {
+    font-size: 37px;
+    padding: 0;
+}
+
+.navbar-toggler {
+    border-color: #777777;
+}
+
+.fa-bars {
+    color: #777777;
+}
+
+header {
+    padding-top: 2.2rem!important;
+}
+
+.carousel-indicators li {
+    top: 60px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+
+.carousel-indicators .active {
+    background-color: #373A3C;
+}
+
+.rowRecipe {
+    border-bottom: 1.5px solid #373A3C;
+    padding-bottom: 60px;
+}
+
+.recipe li {
+    list-style: none;
+    font-size: 20px;
+}
+
+span {
+    font-family: 'Lobster', cursive;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .home-image {
+        background-image: url(../img/bannermovil.png);
+        background-repeat: no-repeat;
+        background-size: 412px 300px;
+        background-position: top;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    header h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    section#experiencia {
+        position: relative;
+        top: -160px;
+    }
+    
+}
