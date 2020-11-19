@@ -2,11 +2,6 @@ a.nav-link:hover {
     color: pink;
 }
 
-div#footer-rrss {
-    position: relative;
-    top: 40px;
-}
-
 button.btn.btn-primary.btn-lg.btn-block {
     background-color: pink;
     border-color: white;
@@ -48,7 +43,7 @@ a.icon.navbar.ml-3:hover {
 }
 
 .col.align-self-center.bg-info.text-white.rounded {
-    background-color: #CA00F6 !important;
+    background-color: blueviolet !important;
 }
 
 .container-description{
@@ -177,19 +172,27 @@ h3.icon.text-center {
 }
 
 a#icon-github {
-  color: pink;
+    color: pink;
+    position: relative;
+    top: 20px;
 }
 
-a#icon-twitter{
-  color: pink;
+a#icon-twitter {
+    color: pink;
+    position: relative;
+    top: 20px;
 }
 
-a#icon-linkedin{
-  color: pink;
+a#icon-linkedin {
+    color: pink;
+    position: relative;
+    top: 20px;
 }
 
-a#icon-facebook{
-  color: pink;
+a#icon-facebook {
+    color: pink;
+    position: relative;
+    top: 20px;
 }
 
 body * {
@@ -203,7 +206,7 @@ nav {
 
 .navbar,
 footer {
-    background-color: #333333;
+    background-color: #000000;
     color: #ffffff;
     font-family: 'Lobster', cursive;
     text-decoration: none!important;
@@ -299,11 +302,6 @@ span {
     section#experiencia {
         position: relative;
         top: -160px;
-    }
-
-    div#footer-rrss {
-        position: relative;
-        top: 15px;
     }
 
     div#footer-logo {
